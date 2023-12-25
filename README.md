@@ -6,7 +6,7 @@ This is based on the superb work by [Mohit Bhoite](https://www.bhoite.com/)
 
 Install the arduino example `File -> Examples -> ArduinoISP -> ArduinoISP`
 
-I'm programming the ATTiny85 (ATTINY85V-10PU-ND) using an Arduino UNO... and that is actually a bit of a pain! There are quite a few online tutorials / but most of them seem out of date or broken because of updates to the Arduino IDE / ssl certificates at the moment.  
+I'm programming the ATTiny85 (ATTINY85V-10PU-ND) using an Arduino UNO... and that is actually a bit of a pain! There are quite a few online tutorials however most of them seem out of date or broken because of updates to the Arduino IDE / ssl certificates at the moment.  
 
 Here my current setup 26 December 2023
 
@@ -27,7 +27,7 @@ Wiring setup:
 
 <img width="312" alt="image" src="https://github.com/jeropaul/arduino_satellite/assets/520985/717b906d-6a0e-408c-b388-93f8f7884107">
 
-When flashing the chip make sure to flash using the __INTERNAL__ clock source. Otherwise the chip requires an external crystal oscillator and you cannot re-flash the chip without one.
+When flashing the chip make sure to flash using the __INTERNAL__ clock source. Otherwise the chip requires an external crystal oscillator and you __cannot re-flash__ the chip without one.
 
 These are the settings I'm using at the moment:
 
@@ -43,6 +43,6 @@ To upload your program you need to navigate to sketch -> Upload using programmer
 
 <img width="304" alt="image" src="https://github.com/jeropaul/arduino_satellite/assets/520985/767ca49d-d04a-4417-9963-b9d542cb6825">
 
-After that I've still found it hit and miss to successfully upload the program!
+After that I've still found it hit and miss to successfully upload the program with weird intermittent issues but it works well enough...
 
 
