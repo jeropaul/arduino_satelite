@@ -27,6 +27,16 @@ Wiring setup:
 
 <img width="312" alt="image" src="https://github.com/jeropaul/arduino_satellite/assets/520985/717b906d-6a0e-408c-b388-93f8f7884107">
 
+| Arduino | ATtiny85 |
+| ------- | -------- |
+| GND | GND |
+| 3.3v | VCC (chip pin 8) |
+| ~10 |  Pin 5 (chip pin 1) |
+| 13 | Pin 2 (chip pin 7) |
+| 12 | Pin 1 (chip pin 6) |
+| 11 | Pin 0 (chip pin 5) |
+
+
 When flashing the chip make sure to flash using the __INTERNAL__ clock source. Otherwise the chip requires an external crystal oscillator and you __cannot re-flash__ the chip without one.
 
 These are the settings I'm using at the moment:
